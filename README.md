@@ -4,7 +4,7 @@
 
 - Especificidades da Escrita Científica
 - O que é LateX?
-- Por quê usar LateX?
+- Por que usar LateX?
 - Como usar LateX
 
 ## Disclaimer
@@ -65,7 +65,7 @@ Título, Resumo, Introdução, Materiais e Métodos, Resultados, Discussão, Con
 ## Overleaf
 
 Link do projeto do beamer: https://www.overleaf.com/project/614124a20d353f307a298b77
-
+Link do projeto do template: https://www.overleaf.com/project/613a11ce94c9de6c8142fc42
 
 ### Links interessantes
 
