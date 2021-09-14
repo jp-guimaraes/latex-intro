@@ -15,16 +15,17 @@
 
 - Principal forma de comunicação e divulgação científica
 
-- Cientista -> Sociedade
-
-- Cientista -> Comunidade científica
+- Cientista -> Sociedade ( Comunidade científica )
 
 ## Especificidades de um artigo científico
 
 - Segue/suporta o método científico 
 
-- Seções que dividam a exposição das ideias: 
-Abstract/Introdução/Referêncial teórico/Metodologia/Resultados/Conclusões
+- Seções que dividem a exposição das ideias: 
+
+Título/Abstract/Introdução/Referêncial teórico/Metodologia/Resultados/Conclusões
+
+Título, Resumo, Introdução, Materiais e Métodos, Resultados, Discussão, Conclusão, Agradecimentos e Referências
 
 - Uso de referências para suporte de afirmações [ Bibliografia ]
 
@@ -61,10 +62,13 @@ Abstract/Introdução/Referêncial teórico/Metodologia/Resultados/Conclusões
 
 
 
+## Overleaf
 
+Link do projeto do beamer: https://www.overleaf.com/project/614124a20d353f307a298b77
 
 
 ### Links interessantes
 
-httpswp.ufpel.edu.brnuclearfiles201704intlatex.pdf
+- Sobre latex: httpswp.ufpel.edu.brnuclearfiles201704intlatex.pdf
+- Sobre a escrita científica: https://www.scielo.br/j/rbef/a/VsMNNbVGBzRkSwHQgKVF3cr/?lang=pt
 
