@@ -40,7 +40,9 @@ Título, Resumo, Introdução, Materiais e Métodos, Resultados, Discussão, Con
 
 - Cada revista tem o seu padrão de formatação
 
-## Tipos de formatação
+## Tipos de formatação utilizadas
+
+(mostrar exemplos)
 
 - Coluna simples/coluna dupla
 
@@ -60,9 +62,52 @@ Título, Resumo, Introdução, Materiais e Métodos, Resultados, Discussão, Con
 
 - Numeração de seções
 
+- Biografia dos autores 
 
+- Estilo de bibliografia
 
-## Overleaf
+# Vantagens do uso do latex
+
+- Foco principal no conteúdo do texto
+
+- Arquivos de estilo que modificam os padrões de formatação conforme periódico escolhido
+
+- Reaproveitamento de texto e arquivo de referências
+
+# Fluxo de trabalho do LateX
+
+- Necessário instalar (Windows, Linux, Mac)
+
+- Escreve arquivo .tex 
+
+- Necessário compilar .tex para gerar .ps .pdf, etc
+
+# Formas de trabalho
+
+- uso de IDEs 
+- "no braço": escreve arquivos com qualquer editor de texto e compilação via terminal
+- Ferramentas online Ex: Overleaf
+
+# Overleaf
+
+- IDE online
+- Multiplataforma
+- Nuvem
+- Trabalho em equipe
+
+# Estrutura de um arquivo LateX
+
+- exemplos de códigos
+
+- pacotes
+
+- citações
+
+- referências
+
+---
+
+## Links dos projetos no overleaf
 
 Link do projeto do beamer: https://www.overleaf.com/project/614124a20d353f307a298b77
 Link do projeto do template: https://www.overleaf.com/project/613a11ce94c9de6c8142fc42
