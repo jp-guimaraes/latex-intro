@@ -27,7 +27,7 @@ Título/Abstract/Introdução/Referêncial teórico/Metodologia/Resultados/Concl
 
 Título, Resumo, Introdução, Materiais e Métodos, Resultados, Discussão, Conclusão, Agradecimentos e Referências
 
-- Uso de referências para suporte de afirmações [ Bibliografia ]
+- Uso de referências para suporte de afirmações (Bibliografia)
 
 - Tabelas, figuras, equações, algoritmos, etc
 
