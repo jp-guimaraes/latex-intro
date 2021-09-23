@@ -1,0 +1,217 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+\documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
+\usetheme{Simple}
+
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{listings}
+\usepackage{color}
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+% The title
+\title[Escrita com latex]{Introdução à escrita científica com \LaTeX}
+\subtitle{Expotec 2021}
+
+\author[João Guimarães] {João P. F. Guimarães}
+\institute[IFRN]{
+    \href{https://jp-guimaraes.github.io/}{https://jp-guimaraes.github.io/} \\ 
+    \vskip 10pt
+    IFRN - Campus João Câmara
+    \vskip 3pt
+}
+\date{\today} % Date, can be changed to a custom date
+
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{frame}
+    % Print the title page as the first slide
+    \titlepage
+\end{frame}
+
+
+
+\begin{frame}{Disclaimer}
+    \begin{alertblock}{Alerta!}
+        Workshop contaminado pelo viés do autor
+    \end{alertblock}
+    \begin{itemize}
+        \item Experiência relacionada à pesquisa em Engenharia Elétrica/Computação
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Sumário}
+    \tableofcontents
+\end{frame}
+
+\section{Escrita científica}
+
+\begin{frame}{Textos científicos}
+    \begin{itemize}
+        \item Monografias
+        \item Dissertações
+        \item Teses
+        \item Artigos científicos
+        \item Livros
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Artigos científicos}
+
+\begin{itemize}
+    \item Principal forma de comunicação e divulgação científica
+    \item Cientista $\rightarrow$ Sociedade (Comunidade científica)
+    \item Texto científico
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Especificidades de um artigo científico}
+
+    \begin{itemize}
+        \item Segue/suporta o método científico
+        \item Seções que dividem a exposição das ideias: \\
+        Título/Abstract/Introdução/Referencial teórico/Metodologia/Resultados/Conclusões \\
+        Título, Resumo, Introdução, Materiais e Métodos, Resultados, Discussão, Conclusão, Agradecimentos e Referências
+        \item Uso de referências para suporte de afirmações (Bibliografia)
+        \item Tabelas, figuras, equações, algoritmos, etc
+    \end{itemize}
+    
+\end{frame}
+
+
+\begin{frame}{Periódicos e Congressos}
+    \begin{itemize}
+        \item Um dos principais meios de divulgação científica
+        \item Cada periódico(revista)/congresso tem o seu escopo e metodologia
+        \item Cada revista tem o seu padrão de formatação
+    \end{itemize}
+\end{frame}
+    
+\begin{frame}{Tipos de formatação utilizadas}
+    \begin{itemize}
+        \item Coluna simples/coluna dupla
+        \item Alinhamento
+        \item Modelo de referência
+        \item Modelo de citação
+        \item Tipo de título
+        \item Autores 
+        \item Rodapé
+        \item Seções
+        \item Numeração de seções
+        \item Biografia dos autores 
+        \item Estilo de bibliografia
+    \end{itemize}
+    Vamos analisar alguns exemplos!
+\end{frame}
+
+\section{O que é \LaTeX?}
+
+\begin{frame}{O que é \LaTeX?}
+    \begin{itemize}
+        \item Sistema de preparação de documentos 
+        \item Lançado em 1983
+        \item texto simples ao invés de WYSIWYG  
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Vantagens do uso do \LaTeX}
+    \begin{itemize}
+        \item Foco principal no conteúdo do texto
+        \item Arquivos de estilo que modificam os padrões de formatação conforme periódico escolhido
+        \item Reaproveitamento de texto e arquivo de referências 
+    \end{itemize}
+        
+\end{frame}
+
+\begin{frame}{Fluxo de trabalho no \LaTeX}
+    \begin{itemize}
+        \item Necessário instalar (Windows, Linux, Mac)
+        \item Escreve arquivo .tex 
+        \item Necessário compilar .tex para gerar .ps .pdf, etc
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Formas de trabalho}
+    \begin{itemize}
+        \item Uso de IDEs: \href{https://beebom.com/best-latex-editors/}{alguns exemplos}
+        \item "no braço" (editor de texto mais compilação via terminal)
+        \item Ferramentas online - \href{http://www.overleaf.com/}{Overleaf}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Estrutura de um projeto \LaTeX }
+    \begin{itemize}
+        \item Arquivos fonte (texto, imagens, bibliografia)
+        \item Arquivos auxiliares (estilo, comandos, configurações)
+        \item Arquivos finais (pdf, jpg, ps)
+    \end{itemize}
+\end{frame}
+
+\section{Overleaf}
+
+\begin{frame}{Overleaf}
+    \begin{itemize}
+        \item IDE online
+        \item Multiplataforma
+        \item Nuvem
+        \item Trabalho em equipe
+    \end{itemize}
+    Overleaf vai ser a solução usada nesse Workshop
+\end{frame}
+
+
+
+\begin{frame}{Estrutura de um projeto \LaTeX no Overleaf }
+     \begin{itemize}
+        \item Menu
+        \item Arquivos usados
+        \item Editor de texto
+        \item Visualizador do PDF
+        \item Recursos da Nuvem
+    \end{itemize}
+\end{frame}
+
+\section{Exemplos}
+
+\begin{frame}{Anatomia de um arquivo \LaTeX}
+    \begin{itemize}
+        \item Classe do documento 
+        \item Preâmbulo (temas, pacotes, metadados)
+        \item Texto
+        \item Bibliografia (pode estar num arquivo separado)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+\Huge{\centerline{Vamos aos exemplo!}}
+\end{frame}
+
+\begin{frame}{Dicas}
+
+    \href{https://pt.overleaf.com/learn}{Documentação do Overleaf}
+    
+    
+    \href{https://en.wikibooks.org/wiki/LaTeX/Document_Structure}{Wikibook com informações gerais sobre \LaTeX}
+
+    
+\end{frame}
+
+\begin{frame}
+    \Huge{\centerline{Obrigado!}} 
+\end{frame}
+
+
+\end{document}
